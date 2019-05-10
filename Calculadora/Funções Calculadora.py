@@ -18,9 +18,9 @@ def sub(x,y):
 
 
 #Programa Principal
-x = input('digite o x ')
-operador = input('digite o operador ')
-y = input(' digite o y ')
+x = input('digite o x: ')
+operador = input('digite o operador: ')
+y = input(' digite o y: ')
 if operador == '+':
     resultado = soma(float(x),float(y))
 elif operador == '-':
